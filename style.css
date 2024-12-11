@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+body {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/images.jpg");
+    background-size: cover;
+}
+
+.box{
+    padding: 280px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+}
+
+/* Center the h1 inside the form */
+form h1 {
+  display: block; /* Makes the h1 element behave like a block-level element */
+  margin: 0 auto; /* Ensures the h1 element is centered */
+  padding: 10px 0; /* Add some padding for spacing */
+  outline: none;
+  border-bottom: 5px solid black; /* Grey underline */
+  width: 560px;
+}
+
+input[type="email"], input[type="password"] {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(125, 123, 123); /* Grey underline */
+  background-color: transparent; /* No background */
+  padding: 10px 0; /* Add padding for better spacing */
+  font-size: 16px;
+  width: 450px;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+
+  form {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start; /* Align form contents to the left */
+    margin-top: -520px;
+    text-align: center;
+  }
+
+button{
+  width: 400px;
+  height: 60px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 2px solid black;
+  font-size: 15px;
+  font-family: 'Playfair Display SC', sans-serif;
+  margin-left: 90px;
+}
+
+button:hover {
+  background-color: rgb(4, 36, 75);
+  transition: 0.3s ease-in-out;
+  color: white;
+}
+
+.second-h3 {
+  margin-top: 60px;
+ 
+}
+
+/* Style the container of the checkbox */
+label[for="rememberMe"] {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: black;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+/* Style the checkbox itself */
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  accent-color: blue; /* Custom checkbox color */
+  margin-top: 4px;
+}
+
+/* Hover effect for the checkbox */
+input[type="checkbox"]:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* Optional: Style for the "Remember Me" label */
+label[for="rememberMe"] span {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.forgot-password {
+  font-size: 15px;
+  color: black; /* Link color */
+  text-decoration: none; /* Remove underline from link */
+  margin-left: 400px;
+  position: relative;
+  top: -58px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline; /* Underline the link on hover */
+}
+
+
